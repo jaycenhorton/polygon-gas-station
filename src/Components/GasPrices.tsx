@@ -1,9 +1,9 @@
-import { Container, Typography, Box, Stack, Link, TextField } from '@mui/material'
+import { Container, Typography, Box, Stack, TextField } from '@mui/material'
 import PriceBox from './PriceBox'
 import {faRocket, faPlane, faCar, faBicycle, faAsterisk} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { borderColor, keyframes } from '@mui/system';
-import { useContext, useState, useEffect, useRef } from 'react'
+import { keyframes } from '@mui/system';
+import { useContext, useState, useEffect } from 'react'
 import Context from '../Context'
 
 const grow = keyframes`

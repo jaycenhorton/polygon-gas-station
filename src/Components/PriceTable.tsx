@@ -1,4 +1,4 @@
-import {Table, TableBody, TableHead, TableCell, TableContainer, TableRow, Container, Typography, Stack, TableFooter} from '@mui/material'
+import {Table, TableBody, TableHead, TableCell, TableContainer, TableRow, Container, Typography, Stack} from '@mui/material'
 import { styled } from '@mui/system';
 import Section from './Section'
 import Context from '../Context';
