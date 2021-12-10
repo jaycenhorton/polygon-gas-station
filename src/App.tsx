@@ -30,7 +30,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async() =>{
-      await axios.get(`https://api.polygonscan.com/api?module=stats&action=maticprice&apikey=YourApiKeyToken`)
+      await axios.get(`https://api.polygonscan.com/api?module=stats&action=maticprice&apikey=${process.env.REACT_APP_POLYGON_API_KEY}`)
       .then(async resp => {
         await axios.get('https://gasstation-mainnet.matic.network')
         .then(res =>{

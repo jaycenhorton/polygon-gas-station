@@ -45,7 +45,7 @@ const GasPrices = ({customGasPrice, setCustomGasPrice, customGasPriceRef}:any) =
                 Gas Price (Gwei)
             </Typography>
             <Stack spacing={2} justifyContent="space-around" direction={{xs: 'column', md: 'row'}} >
-                <PriceBox sx={{ backgroundColor: "#00AC2625" }} spacing={{xs: 2 ,md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'row', md: 'column'}} textAlign="center" borderColor='#00AC26' width={{md: "100%"}} height={{xs: 50, md: 225}}>
+                <PriceBox sx={{ backgroundColor: "#00AC2625" }} spacing={{xs: 2 ,md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'column', md: 'column'}} textAlign="center" borderColor='#00AC26' width={{md: "100%"}} height={{xs: 225}}>
                     <Box 
                         sx={{
                             backgroundColor: "white",
@@ -71,7 +71,7 @@ const GasPrices = ({customGasPrice, setCustomGasPrice, customGasPriceRef}:any) =
                     </Box>
                 </PriceBox>
 
-                <PriceBox sx={{ backgroundColor: "#8247E525" }} spacing={{xs: 2 , md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'row', md: 'column'}} textAlign="center" borderColor='#8247E5' width={{md: "100%"}} height={{xs: 50, md: 225}}>
+                <PriceBox sx={{ backgroundColor: "#8247E525" }} spacing={{xs: 2 , md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'column', md: 'column'}} textAlign="center" borderColor='#8247E5' width={{md: "100%"}} height={{xs: 225}}>
                     <Box 
                         sx={{
                             backgroundColor: "white",
@@ -97,7 +97,7 @@ const GasPrices = ({customGasPrice, setCustomGasPrice, customGasPriceRef}:any) =
                     </Box>
                 </PriceBox>
 
-                <PriceBox sx={{ backgroundColor: "#0400E025" }} spacing={{xs: 2 ,md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'row', md: 'column'}} textAlign="center" borderColor='#0400E0' width={{md: "100%"}} height={{xs: 50, md: 225}}>
+                <PriceBox sx={{ backgroundColor: "#0400E025" }} spacing={{xs: 2 ,md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'column', md: 'column'}} textAlign="center" borderColor='#0400E0' width={{md: "100%"}} height={{xs: 225}}>
                     <Box 
                         sx={{
                             backgroundColor: "white",
@@ -123,7 +123,7 @@ const GasPrices = ({customGasPrice, setCustomGasPrice, customGasPriceRef}:any) =
                     </Box>
                 </PriceBox>
 
-                <PriceBox sx={{ backgroundColor: "#E4000025" }} spacing={{xs: 2 ,md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'row', md: 'column'}} textAlign="center" borderColor='#E40000' width={{md: "100%"}} height={{xs: 50, md: 225}}>
+                <PriceBox sx={{ backgroundColor: "#E4000025" }} spacing={{xs: 2 ,md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'column', md: 'column'}} textAlign="center" borderColor='#E40000' width={{md: "100%"}} height={{xs: 225}}>
                     <Box 
                         sx={{
                             backgroundColor: "white",
@@ -149,7 +149,7 @@ const GasPrices = ({customGasPrice, setCustomGasPrice, customGasPriceRef}:any) =
                     </Box>
                 </PriceBox>
 
-                <PriceBox sx={{ backgroundColor: "#cc660025" }} spacing={{xs: 2 ,md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'row', md: 'column'}} textAlign="center" borderColor='#cc6600' width={{md: "100%"}} height={{xs: 50, md: 225}}>
+                <PriceBox sx={{ backgroundColor: "#cc660025" }} spacing={{xs: 2 ,md:6}} justifyContent={{xs: 'space-between', md: 'initial'}} alignItems={{xs: 'center', md: 'initial'}} direction={{xs: 'column', md: 'column'}} textAlign="center" borderColor='#cc6600' width={{md: "100%"}} height={{xs: 225}}>
                     <Box 
                         component="form"
                         sx={{

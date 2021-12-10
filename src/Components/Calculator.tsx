@@ -68,7 +68,7 @@ const Calculator = ({preset, setPreset, gasPrice, setGasPrice, gasUsed, gasPrice
 
 
                 <Stack direction={{xs: 'column', lg: 'row'}} marginY={2} spacing={4} justifyContent="center">
-                    <PriceBox borderRadius={{xs: 0, lg: '10%'}} borderColor="#8247E5" display="flex" flexDirection={{xs: 'row', lg: 'column'}} justifyContent={{xs: 'space-between', lg: 'space-around'}} width={{xs: 'initial', lg: "20%"}} height={{xs: 50, lg: 200}}>
+                    <PriceBox padding={{xs:'1rem'}} borderRadius={{xs: 0, lg: '10%'}} borderColor="#8247E5" display="flex" flexDirection={{xs: 'row', lg: 'column'}} justifyContent={{xs: 'space-between', lg: 'space-around'}} width={{xs: 'initial', lg: "20%"}} height={{xs: 50, lg: 200}}>
                         <Typography variant="h4">
                             {costMatic.toFixed(6)}
                         </Typography>
@@ -76,7 +76,7 @@ const Calculator = ({preset, setPreset, gasPrice, setGasPrice, gasUsed, gasPrice
                             MATIC
                         </Typography>
                     </PriceBox>
-                    <PriceBox borderRadius={{xs: 0, lg: '10%'}} borderColor="green" display="flex" alignItems="center" flexDirection={{xs: 'row', lg: 'column'}} justifyContent={{xs: 'space-between', lg: 'space-around'}} width={{xs: 'initial', lg: "20%"}} height={{xs: 50, lg: 200}}>
+                    <PriceBox padding={{xs:'1rem'}} borderRadius={{xs: 0, lg: '10%'}} borderColor="green" display="flex" alignItems="center" flexDirection={{xs: 'row', lg: 'column'}} justifyContent={{xs: 'space-between', lg: 'space-around'}} width={{xs: 'initial', lg: "20%"}} height={{xs: 50, lg: 200}}>
                         <Typography variant="h4">
                             ${costUSD.toFixed(6)}
                         </Typography>
